@@ -14,5 +14,5 @@ while($a=$bolsa->fetchArray(SQLITE3_ASSOC)){
 // var_dump($registros);
 
 $datosJSON=json_encode($registros);
-echo $datosJSON;
+// echo $datosJSON;
 ?>
